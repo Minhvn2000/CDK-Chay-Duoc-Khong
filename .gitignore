@@ -1,0 +1,31 @@
+# Gitignore for CDK
+__pycache__/
+*.py[cod]
+*$py.class
+
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+
+# Virtual env / secrets
+venv/
+.env/
+.venv/
+.env
+.env.*
+*.pem
+*.key
+
+# Agent internal
+agent_workspace/
+
+# Temp/logs
+*.log
+tmp/
+temp/
+check_perm.py
+
+# OS / IDE
+Thumbs.db
+.DS_Store
+.vscode/
+.idea/

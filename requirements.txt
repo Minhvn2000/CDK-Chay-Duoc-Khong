@@ -1,0 +1,9 @@
+# Dependencies cho CDK Streamlit MVP và inference
+# Pinned to the environment that produced models/cdk_a1_deployment.joblib
+# Verified: Python 3.11.9, streamlit 1.59.0, pandas 3.0.3, numpy 2.4.6, scikit-learn 1.9.0, joblib 1.5.3
+# Do not upgrade/change versions without regenerating the artifact and re-testing compatibility.
+streamlit==1.59.0
+pandas==3.0.3
+numpy==2.4.6
+scikit-learn==1.9.0
+joblib==1.5.3
